@@ -13,8 +13,6 @@ function ModalPage() {
         setShowModal(false);
     };
 
-
-
     return (
         <div className="flex mx-40 my-4">
             <div className="flex gap-4">

@@ -64,8 +64,8 @@ function TaskAccordion({ lists, completed }) {
         return (
             < div
                 key={index}
-                className={`w-96 rounded rounded-[20px] p-5 grid gap-3 border border-black 
-                    ${isComplete ? 'bg-green-300' : 'bg-white'}`}
+                className={`w-96 rounded-[20px] p-5 grid gap-3 border border-black 
+                    ${isComplete ? 'bg-[#71F79F]' : 'bg-white'}`}
             >
                 <div
                     onClick={() => handleClick(index)}
